@@ -26,19 +26,18 @@ const Navbar2 = () => {
      
         <div className="flex md:hidden gap-3">
           <FiSearch size={20} className="text-gray-700" />
-          <FiShoppingCart size={20} className="text-gray-700" />
+          <FiShoppingCart size={20} className="text-gray-700" /> 
           <FaRegUserCircle size={20} className="text-gray-700" />
         </div>
 
-        
         <div className="hidden md:flex items-center gap-8">
           <div className="text-gray-400 flex gap-6">
-            <Link href={""} className="flex items-center">
+            <Link href={""} className="flex items-center ">
               Shop <RiArrowDropDownLine className="ml-1" />
             </Link>
             <Link href={""}>On Sale</Link>
             <Link href={""}>New Arrivals</Link>
-            <Link href={""}>Brands</Link>
+            <Link href={"product"}>Brands</Link>
           </div>
 
           <div className="flex items-center w-[300px] bg-[#F0F0F0] rounded-lg">
@@ -51,8 +50,8 @@ const Navbar2 = () => {
           </div>
 
           <div className="flex gap-3">
-            <FiShoppingCart size={25} />
-            <FaRegUserCircle size={25} />
+          <Link href="/cart">  <FiShoppingCart size={25} /></Link>
+           <FaRegUserCircle size={25} />
           </div>
         </div>
       </div>

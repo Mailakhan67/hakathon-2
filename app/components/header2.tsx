@@ -11,7 +11,7 @@ const Header2 = () => {
 {/* first cart start */}
 <div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
-<Image  src='/img(7).png' alt=''  width={295} height={298} className="p-3"/>
+<Image  src='/top-selling-1.png' alt=''  width={295} height={298} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
 <h2 className="text-[#000000] text-sm font-serif w-[295px]">Vertical Striped Shirt</h2>
@@ -32,7 +32,7 @@ const Header2 = () => {
 {/* 2nd cart start */}
 <div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
-<Image  src='/img(8).png' alt=''  width={295} height={298} className="p-3"/>
+<Image  src='/top-selling-2.png' alt=''  width={295} height={298} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
 <h2 className="text-[#000000] text-sm font-serif w-[295px]">Courage Graphic T-shirt</h2>
@@ -55,7 +55,7 @@ const Header2 = () => {
 {/*3rd cart start */}
 <div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
-<Image  src='/img(9).png' alt=''  width={295} height={298} className="p-3"/>
+<Image  src='/top-selling-3.png' alt=''  width={295} height={298} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
 <h2 className="text-[#000000] text-sm font-serif w-[295px]">Loose Fit Bermuda Shorts</h2>
@@ -75,7 +75,7 @@ const Header2 = () => {
 {/* 4th cart start */}
 <div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
-<Image  src='/img(10).png' alt=''  width={295} height={258} className="p-3"/>
+<Image  src='/top-selling-4.png' alt=''  width={295} height={258} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
 <h2 className="text-[#000000] text-sm font-serif w-[295px]">T-shirt With Tape Details</h2>
