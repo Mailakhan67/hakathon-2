@@ -35,7 +35,7 @@ const Navbar2 = () => {
             <Link href={""} className="flex items-center ">
               Shop <RiArrowDropDownLine className="ml-1" />
             </Link>
-            <Link href={""}>On Sale</Link>
+            <Link href={"onsale"}>On Sale</Link>
             <Link href={""}>New Arrivals</Link>
             <Link href={"product"}>Brands</Link>
           </div>

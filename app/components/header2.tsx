@@ -6,10 +6,10 @@ const Header2 = () => {
   return (
     <div className="w-full mt-[80px]">
         <h1 className="leading-normal font-serif font-bold text-3xl text-center text-[#000000]">TOP SELLING</h1>
-      <div className="max-w-[1240px] m-auto grid grid-cols-4 justify-evenly">
+      <div className="sm:ml-[20px] lg:max-w-[1240px] lg:grid  lg:grid-cols-4  lg:justify-evenly sm:grid  sm:grid-cols-2  sm:justify-evenly m-auto">
 
 {/* first cart start */}
-<div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
+<div className="w-[295px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
 <Image  src='/top-selling-1.png' alt=''  width={295} height={298} className="p-3"/>
 </div>
@@ -30,7 +30,7 @@ const Header2 = () => {
 {/* first cart end */}
 
 {/* 2nd cart start */}
-<div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
+<div className="w-[295px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
 <Image  src='/top-selling-2.png' alt=''  width={295} height={298} className="p-3"/>
 </div>
@@ -53,7 +53,7 @@ const Header2 = () => {
 
 
 {/*3rd cart start */}
-<div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
+<div className="w-[295px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
 <Image  src='/top-selling-3.png' alt=''  width={295} height={298} className="p-3"/>
 </div>
@@ -73,7 +73,7 @@ const Header2 = () => {
 
 
 {/* 4th cart start */}
-<div className="w-1240px] h-[444px] flex flex-col mt-[33px]">
+<div className="w-[295px] h-[444px] flex flex-col mt-[33px]">
 <div className="w-[295px] h-[298px] rounded-md">
 <Image  src='/top-selling-4.png' alt=''  width={295} height={258} className="p-3"/>
 </div>
@@ -94,7 +94,7 @@ const Header2 = () => {
 </div>
 </div>
 {/* 4th cart end */}
-<button className="w-[218px] h-[52px] rounded-full border-2 border-gray-400 text-center text-[#000000] ml-[500px]">View All</button>
+<button className="w-[218px] h-[52px] rounded-full border-2 border-gray-400 text-center  sm:mr-[0px] lg:mr-[0px] sm:ml-[180px] lg:ml-[500px] text-[#000000]">View All</button>
 </div>
       </div>
   )

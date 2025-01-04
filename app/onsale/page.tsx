@@ -13,7 +13,7 @@ import { FaStar } from "react-icons/fa";
 
 const page = () => {
   return (
-    <div className='mt-[50px] max-w-[1240px] m-auto'>
+    <div className='mt-[50px] lg:max-w-[1240px]  sm:m-auto'>
 
 <div className="flex flex-row gap-x-[10px] ml-[5px]">
     <Link href={'/'} className="text-gray-600 hover:text-black text-lg font-serif">Home</Link>
@@ -21,11 +21,11 @@ const page = () => {
     <Link href={'/'} className="text-gray-600 hover:text-black text-lg font-serif">On Sale</Link>
 </div>
 
-<div className=" lg:flex lg:flex-row lg:justify-between lg:tems-center sm:flex sm:flex-col">
+<div className=" lg:flex lg:flex-row lg:justify-between lg:items-start sm:items-center sm:flex sm:flex-col ">
 
 {/* Left side section start max-h-[1220px] */}
 <div className="w-[295px] h-full rounded-md p-3  mt-[30px] border border-gray-300">
-  <div className="m-auto">
+  <div className="m-auto ">
 {/* first div start */}
 <div className="w-[247px] p-3 h-[27px] mt-[5px] flex flex-row justify-between items-center  m-auto">
 <div className="font-bold font-serif text-2xl text-[#000000]">Filters </div>
@@ -219,15 +219,15 @@ const page = () => {
 {/* Left side section end */}
 
 {/* Right side section start */}
-<div className="w-[920px] h-full">
+<div className="lg:w-[920px] sm:mt-[45px] lg:mt-0 h-full">
   <h1 className="text-2xl font-serif font-bold  ">Casual</h1>
 
 {/* carts start */}
-<div className="w-[930px] h-full grid  grid-cols-3">
+<div className="lg:w-[930px] sm:w-[450px] sm:mt-[25px] lg:mt-0 lg:gap-y-[0px] sm:gap-y-[50px] sm:grid  sm:grid-cols-2  h-full lg:grid  lg:grid-cols-3 sm:justify-between sm:items-center">
 
 {/* 2nd cart start */}
-<div className="w-1240px] h-[444px] flex flex-col mt-[33px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+<div className="lg:w-[295px] sm:w-[200px] lg:h-[444px] sm:h-[300px] lg:flex lg:flex-col mt-[33px] sm:m-auto">
+<div className="lg:w-[295px] sm:w-[200px] lg:h-[298px] rounded-md ">
 <Image  src='/cart-img-3.png' alt=''  width={285} height={290} className="p-3 rounded-md"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -245,9 +245,9 @@ const page = () => {
 </div>
 {/* 2nd cart end */}
 
-{/* 3rd cart start */}
-<div  className="w-1240px] h-[444px] flex flex-col mt-[33px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+{/* 3rd cart start w-1240px] */}
+<div  className="lg:w-[295px] sm:w-[200px] lg:h-[444px] sm:h-[300px] flex flex-col mt-[33px]  sm:m-auto">
+<div className="lg:w-[295px] sm:w-[200px] h-[298px] rounded-md">
 <Image  src='/cart-section-2.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -267,8 +267,8 @@ const page = () => {
 {/* 3rd cart end */}
 
 {/* 4th cart start */}
-<div className="w-1240px] h-[444px] flex flex-col mt-[33px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+<div className="lg:w-[295px]  sm:w-[200px] sm:h-[300px] lg:h-[444px] flex flex-col mt-[33px]  sm:m-auto">
+<div className="sm:w-[200px] lg:w-[295px] h-[298px] rounded-md">
 <Image  src='/cart-sec2-img3.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -291,8 +291,8 @@ const page = () => {
 
 
 {/* 5th cart start */}
-<div className="max-w-[1240px] h-[444px] flex flex-col mt-[33px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+<div className="lg:w-[295px]  sm:w-[200px]  lg:h-[444px] sm:h-[300px] flex flex-col mt-[33px]  sm:m-auto">
+<div className="lg:w-[295px] sm:w-[200px] h-[298px] rounded-md">
 <Image  src='/cart-img-1.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -314,8 +314,8 @@ const page = () => {
  
 
  {/* 6rd cart start */}
-<div  className="w-1240px] h-[444px] flex flex-col mt-[6px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+<div  className="lg:w-[295px]  sm:w-[200px] sm:h-[300px] lg:h-[444px] flex flex-col mt-[6px]  sm:m-auto">
+<div className="lg:w-[295px] sm:w-[200px]  h-[298px] rounded-md">
 <Image  src='/new-arrival-3.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -334,8 +334,8 @@ const page = () => {
 </div>
 {/* 6rd cart end */}
  {/* 7th cart start */}
-<div className="max-w-[1240px] h-[444px] flex flex-col mt-[6px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+<div className="lg:w-[295px]  sm:w-[200px]  lg:h-[444px] sm:h-[300px] flex flex-col mt-[6px]  sm:m-auto">
+<div className="lg:w-[295px] sm:w-[200px]  h-[298px] rounded-md">
 <Image  src='/new-arrival-4.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -356,8 +356,8 @@ const page = () => {
 {/* 7th cart end */}
 
  {/* 8th cart start */}
- <div className="max-w-[1240px] h-[444px] flex flex-col mt-[6px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+ <div className="lg:w-[295px]  sm:w-[200px]  lg:h-[444px] sm:h-[300px] flex flex-col mt-[6px]  sm:m-auto">
+<div className="lg:w-[295px]  sm:w-[200px] h-[298px] rounded-md">
 <Image  src='/top-selling-1.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -377,8 +377,8 @@ const page = () => {
 </div>
 {/* 8th cart end */}
  {/* 9rd cart start */}
- <div  className="w-1240px] h-[444px] flex flex-col mt-[6px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+ <div  className="lg:w-[295px]  sm:w-[200px]  lg:h-[444px] sm:h-[300px] flex flex-col mt-[6px]  sm:m-auto">
+<div className="lg:w-[295px]  sm:w-[200px] h-[298px] rounded-md">
 <Image  src='/top-selling-2.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
@@ -397,8 +397,8 @@ const page = () => {
 </div>
 {/* 9rd cart end */}
  {/* 10rd cart start */}
- <div  className="w-1240px] h-[444px] flex flex-col mt-[6px]  sm:m-auto">
-<div className="w-[295px] h-[298px] rounded-md">
+ <div  className="lg:w-[295px]  sm:w-[200px]  lg:h-[444px] sm:h-[300px] flex flex-col mt-[6px]  sm:m-auto">
+<div className="lg:w-[295px]  sm:w-[200px] h-[298px] rounded-md">
 <Image  src='/top-selling-3.png' alt=''  width={285} height={290} className="p-3"/>
 </div>
 <div className="flex flex-col ml-[10px]">
